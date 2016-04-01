@@ -1,0 +1,6 @@
+#include <stdio.h>
+#include "cmplx.h"
+
+struct cmplx cmplx_mult(const struct cmplx *a,const struct cmplx *b)
+{
+  

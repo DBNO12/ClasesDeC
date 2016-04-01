@@ -1,0 +1,23 @@
+#include <stdio.h>
+#include "ejercicio8.h"
+
+int main()
+{
+  struct cmplx a = {2,3};
+  struct cmplx b = {4,-5};
+
+  const struct cmplx *pa = &a;
+  const struct cmplx *pb = &b;
+
+  struct cmplx s = cmplx_sum(pa,pb);
+  struct cmplx p = cmplx_mult(pa,pb);
+
+  const struct cmplx *ps = &s;
+  const struct cmplx *pp = &p;
+
+  cmplx_print(ps);
+  cmplx_print(pp);
+  printf("%f\n",cmplx_abs(pa));
+  printf("%f\n",cmplx_abs(pb));
+}
+  

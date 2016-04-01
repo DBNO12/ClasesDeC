@@ -1,0 +1,10 @@
+#include <stdio.h>
+#include <math.h>
+#include "cmplx.h"
+
+#define (x)^2 ((x)*(x))
+
+double cmplx_abs(const struct cmplx *a)
+{
+  return sqrt((a->real)^2 + (a->img)^2);
+}

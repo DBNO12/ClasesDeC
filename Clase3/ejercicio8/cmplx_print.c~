@@ -1,0 +1,9 @@
+#include <stdio.h>
+#include "cmplx.h"
+
+void cmplx_print(const struct cmplx *a)
+{
+  printf("%d",a->real);
+  if (a->img < 0) printf("+");
+  printf("%d\n",a->img);
+}
