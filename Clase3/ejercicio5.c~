@@ -1,0 +1,7 @@
+#include <stdio.h>
+
+#define TOCAPITOL(c) do { \
+    if (c > 90)           \
+      c -= 32; } while(0) \
+
+          
