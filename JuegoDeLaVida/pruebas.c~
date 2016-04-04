@@ -1,0 +1,12 @@
+#include <stdio.h>
+
+struct pos = {
+  int x;
+  int y;
+};
+
+int main()
+{
+  struct pos pos = {1,1}
+
+  printf("%d %d\n",pos->x,pos->y

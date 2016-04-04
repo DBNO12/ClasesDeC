@@ -1,0 +1,6 @@
+// Definimos la estructura que marcará la posición de una celula
+
+struct pos {
+  int x;
+  int y;
+};
